@@ -1,0 +1,11 @@
+float validarFloatRango(float a, float b);
+int validarEnteroRango(int a, int b);
+void leercadena(char *cadena, int n);
+void limpiarEspacios(char *cadena);
+void leerNombre(char *cadena, int n);
+int compararCadenas(char *a, char *b);
+void registrarProducto(int *id, char nombres[][50], float *tiempo, float *recurso, int *demanda, int *contP);
+void mostrarProductos(int *id, char nombres[][50], float *tiempo, float *recurso, int *demanda, int n, int contP);
+void editarProducto(int *id, char nombres[][50], float *tiempo, float *recurso, int *demanda, int contP);
+void eliminarProducto(int *id, char nombres[][50], float *tiempo, float *recurso, int *demanda, int *contP);
+void calcularProduccion(char nombres[][50], float *tiempo, float *recurso, int *demanda, int contP);
